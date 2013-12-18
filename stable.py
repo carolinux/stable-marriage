@@ -103,7 +103,6 @@ print "Preference scores (lower is better)"
 print "Preference score for women:\t\t {}".format(np.sum(status_women.values()))
 print "Preference score for men:\t\t {}".format(np.sum(status_men.values()))
 
-
 print "Mean preference matched for women:\t {0:.2f}".format(np.mean(status_women.values()))
 print "Mean preference matched for men:\t {0:.2f}".format(np.mean(status_men.values()))
 
